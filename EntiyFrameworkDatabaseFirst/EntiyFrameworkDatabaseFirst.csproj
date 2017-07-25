@@ -41,6 +41,9 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -75,6 +78,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateVendor.Designer.cs">
+      <DependentUpon>frmUpdateVendor.cs</DependentUpon>
+    </Compile>
     <Compile Include="GLAccount.cs">
       <DependentUpon>ApModel.tt</DependentUpon>
     </Compile>
@@ -94,6 +103,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateVendor.resx">
+      <DependentUpon>frmUpdateVendor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
